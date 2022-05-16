@@ -1,13 +1,23 @@
 {
+  "homepage": "https://d4wk0m.github.io/get-balance",
   "name": "get-balance",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@terra-money/terra.js": "^3.0.12",
+    "@terra-money/terra.proto": "^0.2.0-beta.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "child-process": "^1.0.2",
+    "fs": "^0.0.1-security",
+    "gh-pages": "^4.0.0",
+    "isomorphic-fetch": "^3.0.0",
+    "ltt-binance-api-react-native": "^0.11.3",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-native-web": "^0.17.7",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -15,7 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +46,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
