@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/get-balance/static/js/main.876e7fac.js",
+    "index.html": "/get-balance/index.html",
+    "main.876e7fac.js.map": "/get-balance/static/js/main.876e7fac.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.876e7fac.js"
+  ]
+}
