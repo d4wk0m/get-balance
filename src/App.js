@@ -1,4 +1,5 @@
 import Main from './components/Main'
+import './scss/style.scss'
 
 function App() {
   return (
